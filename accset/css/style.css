@@ -1,0 +1,28 @@
+#ques {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    height: 210px;
+}
+#ans_yes {
+    position: absolute;
+    top: 260px;
+    left: 280px;
+}
+#ans_no {
+    position: absolute;
+    top: 260px;
+    left: 330px;
+}
+body{
+    background: url(../ims/277306362_1132238317600660_8407851472936058278_n.jpeg) center / cover no-repeat;
+    background-attachment: fixed;
+    height: 1000px;
+}
+a {
+    text-decoration: none;
+    background-color: #efefef;
+}
+h1{
+    color: red;
+}

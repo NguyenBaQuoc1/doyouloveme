@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./accset/css/style.css">
+    <script>
+        flag = 1;
+        function yes(){
+            alert("Inbox cho a")
+        }
+        function no(){
+            if(flag == 1){
+                ans_no.style.top = '90px';
+                ans_no.style.left = '200px';
+                flag = 2;
+            }else if(flag == 2){
+                ans_no.style.top = '200px';
+                ans_no.style.left = '300px';
+                flag = 3;
+            }else if(flag == 3){
+                ans_no.style.top = '300px';
+                ans_no.style.left = '200px';
+                flag = 1;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        <h1 id="ques">Em có yêu anh không ? có muốn về nhà với anh không?</h1>
+        <div id="ans_yes">
+            <button>
+                <a href="https://www.facebook.com/kuokisme" onclick="yes()">YES</a>
+            </button>
+        </div>
+        <div id="ans_no">
+            <input type="button" value="NO" onmouseover="no()">
+        </div>
+    </form>
+</body>
+</html>
